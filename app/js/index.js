@@ -8,8 +8,7 @@ import Toolbar from "material-ui/Toolbar";
 import Typography from 'material-ui/Typography';
 import Blog from "./blog";
 
-const styles = theme => ({
-});
+const styles = theme => ({});
 
 const theme = createMuiTheme();
 
@@ -17,7 +16,7 @@ const JoshCoxIO = withStyles(styles)((props) => {
     const {classes} = props;
     return (
         <div>
-            <AppBar position="absolute">
+            <AppBar position="sticky">
                 <Toolbar variant="title">
                     <Typography>Josh Cox</Typography>
                 </Toolbar>
